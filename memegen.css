@@ -1,0 +1,61 @@
+h1,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.topcontent {
+  background-color: lightgray;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+}
+
+.firstheader {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.secheader {
+  padding-bottom: 50px;
+}
+
+.htmlform {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.memearea {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.submitbutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.memearea {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.memearea div {
+  transition: 0.5s;
+}
+
+.memearea div:hover {
+  opacity: 0.5;
+}
+
+.memearea div:hover > div {
+  opacity: 1;
+}
+
+.ximage {
+  opacity: 0;
+}
